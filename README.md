@@ -1,7 +1,9 @@
-测试手写实现的Promise库是否符合Promise/A+规范
+# Promise
 
-npm install promises-aplus-tests -g
+## 测试手写实现的Promise库是否符合Promise/A+规范
 
-执行
+- npm install promises-aplus-tests -g
 
-promises-aplus-tests promise.js
+## 执行
+
+- promises-aplus-tests promise.js
