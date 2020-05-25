@@ -29,6 +29,7 @@
 })(typeof window !== 'undefined' ? window : this, function() {
     'use strict'
 
+    // 判断是否为Promise对象
     const isPromsie = value => {
         if (typeof value === 'object' && value !== null || typeof value === 'function') {
             if (typeof value.then === 'function') {
